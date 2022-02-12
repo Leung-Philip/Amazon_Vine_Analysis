@@ -6,7 +6,7 @@ An analysis was conducted on Amazon reviews written by members of the paid Amazo
 One dataset from https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt was chosen for this analysis (pet products). Pyspark was used to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, and load the transformed data into pgAdmin. Pandas was used for additional analysis on the Vine table that was created – determine if there is any bias toward favorable reviews from Vine members in the dataset. 
 
 ## Results
-![Vine Analysis Table](Images/ vine_table_analysis.png)
+![Vine Analysis Table](Images/vine_table_analysis.png)
 
 - There were a total of 170 Vine reviews and 37,840 non-Vine reviews.
 - There were a total of 65 Vine reviews that were 5-stars and 20,612 non-Vine Reviews that were 5-stars.
